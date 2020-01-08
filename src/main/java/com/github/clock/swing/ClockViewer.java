@@ -28,10 +28,15 @@ public class ClockViewer extends JComponent{
     private Clock clock;
     private Image background;
     private boolean debugMode = false;
+<<<<<<< HEAD
     private Args args;
     
     public ClockViewer(Clock clock, Args args){
         this.args = args;
+=======
+
+    public ClockViewer(Clock clock, Args args){
+>>>>>>> origin/long-hand-color
         clock.addUpdateObserver(new UpdateObserver(){
             @Override
             public void update(Clock clock) {
